@@ -3,6 +3,7 @@ import csv
 import requests
 from urllib.parse import urlparse
 from datetime import datetime
+import os
 
 # Configuration
 VALID_DOMAINS = {
@@ -13,12 +14,32 @@ VALID_DOMAINS = {
 }
 TIMEOUT = 3  # seconds
 
+# Facebook API configuration (add your access token)
+FACEBOOK_ACCESS_TOKEN = 'EAAaZAsjYjABsBPmRrEPcLRBJ6bNNikKirkRHZATet5feGVIEHLOIsXojRz8jPQivionljINxfjZBSwvgZBAvq1Y2YWPe47PaOwxzeL4unXvw7qoOwi0w3tPBvZB3a0MLqvKnlDvnygQBvjZB7TdxeBhZBiyEn072Q419MpkW7qRnWSehd2YgnZAQyfZBjG2j9xxZBnOuZBf4rqe7wx0fEyc0cELyTjSZBJ51l83aEc24ow4VOAZDZD'
+
+def search_facebook_profile(name_ar, name_en):
+    """Use Facebook Graph API to search for profiles"""
+    if not FACEBOOK_ACCESS_TOKEN or FACEBOOK_ACCESS_TOKEN == 'YOUR_ACCESS_TOKEN_HERE':
+        return None
+    
+    try:
+        # Search for pages/profiles
+        search_url = f"https://graph.facebook.com/v18.0/search?q={name_ar}&type=page&access_token={FACEBOOK_ACCESS_TOKEN}&fields=id,name,link"
+        response = requests.get(search_url, timeout=TIMEOUT)
+        if response.status_code == 200:
+            data = response.json()
+            if 'data' in data and len(data['data']) > 0:
+                return data['data'][0]['link']  # Return first match
+    except:
+        pass
+    return None
+
 def validate_and_update():
-    conn = sqlite3.connect('election.db')
+    conn = sqlite3.connect('../data/election.db')
     cursor = conn.cursor()
     
     # Create validation report
-    with open('validation_report.csv', 'w', newline='', encoding='utf-8') as report_file:
+    with open('../data/validation_report.csv', 'w', newline='', encoding='utf-8') as report_file:
         writer = csv.writer(report_file)
         writer.writerow([
             'ID', 'Name', 'Platform', 'URL', 'Status', 
@@ -27,18 +48,27 @@ def validate_and_update():
         
         # Get all candidates with contacts
         cursor.execute("""
-        SELECT c.candidate_id, c.full_name_en, 
-               co.twitter, co.facebook, co.instagram, co.linkedin
+        SELECT c.candidate_id, c.full_name_ar, c.full_name_en, 
+               co.twitter, co.facebook, co.instagram
         FROM candidates c
         LEFT JOIN candidate_contacts co ON c.candidate_id = co.candidate_id
         WHERE c.governorate IN ('بغداد', 'أربيل')
         """)
         
         for row in cursor.fetchall():
-            candidate_id, name = row[0], row[1]
+            candidate_id, name_ar, name_en, twitter, facebook, instagram = row
             
-            for i, platform in enumerate(['Twitter', 'Facebook', 'Instagram', 'LinkedIn'], 2):
-                url = row[i]
+            # Try to find missing Facebook profiles
+            if not facebook:
+                facebook = search_facebook_profile(name_ar, name_en)
+            
+            platforms = [
+                ('Twitter', twitter),
+                ('Facebook', facebook),
+                ('Instagram', instagram)
+            ]
+            
+            for platform_name, url in platforms:
                 if not url:
                     continue
                     
@@ -57,18 +87,18 @@ def validate_and_update():
                 
                 # Write to report
                 writer.writerow([
-                    candidate_id, name, platform, url, status,
+                    candidate_id, name_en, platform_name, url, status,
                     http_status, valid_domain, datetime.now()
                 ])
                 
                 # Update database if contact exists
-                if any(row[2:6]):  # If any social media exists
+                if any(row[3:6]):  # If any social media exists
                     cursor.execute("""
                     INSERT OR REPLACE INTO candidate_contacts 
-                    (candidate_id, twitter, facebook, instagram, linkedin, 
-                     verification_status, last_verified)
-                    VALUES (?, ?, ?, ?, ?, ?, ?)
-                    """, (candidate_id, row[2], row[3], row[4], row[5], status, datetime.now()))
+                    (candidate_id, twitter, facebook, instagram, 
+                     verification_status, last_contact_attempt)
+                    VALUES (?, ?, ?, ?, ?, ?)
+                    """, (candidate_id, twitter, facebook, instagram, status, datetime.now()))
     
     conn.commit()
     conn.close()

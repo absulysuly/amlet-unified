@@ -7,7 +7,6 @@ build/
 
 # Environment & secrets
 .env
-*.env.local
 
 # Logs
 *.log
@@ -19,3 +18,6 @@ yarn-error.log*
 .vscode/
 .idea/
 .DS_Store
+
+# Local Netlify folder
+.netlify
