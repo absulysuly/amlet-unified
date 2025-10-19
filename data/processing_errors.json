@@ -1,0 +1,290 @@
+[
+  {
+    "row": 278,
+    "error": "invalid literal for int() with base 10: '/'",
+    "data": {
+      "ballotNumber": "Position Group",
+      "candidateSequence": "/",
+      "H1": 9.0,
+      "nominationType": "Party",
+      "governorate": "Sulaymaniyah",
+      "H2": NaN,
+      "sex": "Male",
+      "fullNameOriginal": " Dilshad Ahmad Hasir N\n                   Hassan",
+      "voterNumber": 983,
+      "sourceFile": "ElectionCandidates_Original.csv"
+    }
+  },
+  {
+    "row": 418,
+    "error": "invalid literal for int() with base 10: '/'",
+    "data": {
+      "ballotNumber": "ي الوطثن قف / Towards the male position of the country\nه",
+      "candidateSequence": "/",
+      "H1": 1.0,
+      "nominationType": "Party",
+      "governorate": "Dohuk",
+      "H2": NaN,
+      "sex": "Male",
+      "fullNameOriginal": "Abd al-Bafri replaced Ababakr Abdul-\nlah al-Yuwari",
+      "voterNumber": 4578,
+      "sourceFile": "ElectionCandidates_Original.csv"
+    }
+  },
+  {
+    "row": 622,
+    "error": "invalid literal for int() with base 10: '/'",
+    "data": {
+      "ballotNumber": "Position Group",
+      "candidateSequence": "/",
+      "H1": 7.0,
+      "nominationType": "Party",
+      "governorate": "Sulaymaniyah",
+      "H2": NaN,
+      "sex": "Male",
+      "fullNameOriginal": "Abdulrahman Mohammed Abdulrahman Hama\nAli",
+      "voterNumber": 981,
+      "sourceFile": "ElectionCandidates_Original.csv"
+    }
+  },
+  {
+    "row": 1538,
+    "error": "invalid literal for int() with base 10: '/'",
+    "data": {
+      "ballotNumber": "ي الوطثن قف / Towards the male position of the country\nه",
+      "candidateSequence": "/",
+      "H1": 3.0,
+      "nominationType": "Party",
+      "governorate": "Dohuk",
+      "H2": NaN,
+      "sex": "   female\n ",
+      "fullNameOriginal": "Ambassador of the Islamic Republic of\nIran Khurshid Abdul Al-Yawari",
+      "voterNumber": 4580,
+      "sourceFile": "ElectionCandidates_Original.csv"
+    }
+  },
+  {
+    "row": 2568,
+    "error": "invalid literal for int() with base 10: '/\\n              1'",
+    "data": {
+      "ballotNumber": "Position Group",
+      "candidateSequence": "/\n              1",
+      "H1": NaN,
+      "nominationType": "Party",
+      "governorate": "Sulaymaniyah",
+      "H2": NaN,
+      "sex": "Male",
+      "fullNameOriginal": "Ghalib Muhammad Ali Shakir Hasir\nAl-Surmeer",
+      "voterNumber": 975,
+      "sourceFile": "ElectionCandidates_Original.csv"
+    }
+  },
+  {
+    "row": 4920,
+    "error": "invalid literal for int() with base 10: '/\\n            14'",
+    "data": {
+      "ballotNumber": "Position Group",
+      "candidateSequence": "/\n            14",
+      "H1": NaN,
+      "nominationType": "Party",
+      "governorate": "Sulaymaniyah",
+      "H2": NaN,
+      "sex": "Male",
+      "fullNameOriginal": "Muhammad Amir N\nAli Othman",
+      "voterNumber": 988,
+      "sourceFile": "ElectionCandidates_Original.csv"
+    }
+  },
+  {
+    "row": 5038,
+    "error": "invalid literal for int() with base 10: '/\\n            16'",
+    "data": {
+      "ballotNumber": "Position Group",
+      "candidateSequence": "/\n            16",
+      "H1": NaN,
+      "nominationType": "Party",
+      "governorate": "Sulaymaniyah",
+      "H2": NaN,
+      "sex": "female\n ",
+      "fullNameOriginal": "Munir H. Abdullah Muhammad Saeed",
+      "voterNumber": 989,
+      "sourceFile": "ElectionCandidates_Original.csv"
+    }
+  },
+  {
+    "row": 5307,
+    "error": "invalid literal for int() with base 10: '/\\n            18'",
+    "data": {
+      "ballotNumber": "Position Group",
+      "candidateSequence": "/\n            18",
+      "H1": NaN,
+      "nominationType": "Party",
+      "governorate": "Sulaymaniyah",
+      "H2": NaN,
+      "sex": "Male",
+      "fullNameOriginal": "Najmuddin Aziz Amir N Ahmed",
+      "voterNumber": 990,
+      "sourceFile": "ElectionCandidates_Original.csv"
+    }
+  },
+  {
+    "row": 5516,
+    "error": "invalid literal for int() with base 10: '/\\n            12'",
+    "data": {
+      "ballotNumber": "Position Group",
+      "candidateSequence": "/\n            12",
+      "H1": NaN,
+      "nominationType": "Party",
+      "governorate": "Sulaymaniyah",
+      "H2": NaN,
+      "sex": "female\n ",
+      "fullNameOriginal": "Nour Team Nouri Mohammed",
+      "voterNumber": 986,
+      "sourceFile": "ElectionCandidates_Original.csv"
+    }
+  },
+  {
+    "row": 5568,
+    "error": "invalid literal for int() with base 10: '/\\n            10'",
+    "data": {
+      "ballotNumber": "Position Group",
+      "candidateSequence": "/\n            10",
+      "H1": NaN,
+      "nominationType": "Party",
+      "governorate": "Sulaymaniyah",
+      "H2": NaN,
+      "sex": "Male",
+      "fullNameOriginal": "Omar Karim Ahmed Osman Roghzadi",
+      "voterNumber": 984,
+      "sourceFile": "ElectionCandidates_Original.csv"
+    }
+  },
+  {
+    "row": 5652,
+    "error": "invalid literal for int() with base 10: '/'",
+    "data": {
+      "ballotNumber": "Position Group",
+      "candidateSequence": "/",
+      "H1": 6.0,
+      "nominationType": "Party",
+      "governorate": "Sulaymaniyah",
+      "H2": NaN,
+      "sex": "Male",
+      "fullNameOriginal": "Piston Mohammad Saleh Mustafa Hama\nSaleh Hawrami",
+      "voterNumber": 980,
+      "sourceFile": "ElectionCandidates_Original.csv"
+    }
+  },
+  {
+    "row": 5981,
+    "error": "invalid literal for int() with base 10: '/\\n            11'",
+    "data": {
+      "ballotNumber": "Position Group",
+      "candidateSequence": "/\n            11",
+      "H1": NaN,
+      "nominationType": "Party",
+      "governorate": "Sulaymaniyah",
+      "H2": NaN,
+      "sex": "Male",
+      "fullNameOriginal": "Ribaz Abdullah Mohammed Mo-\nhammed Amir N",
+      "voterNumber": 985,
+      "sourceFile": "ElectionCandidates_Original.csv"
+    }
+  },
+  {
+    "row": 6121,
+    "error": "invalid literal for int() with base 10: '/'",
+    "data": {
+      "ballotNumber": "ي الوطثن قف / Towards the male position of the country\nه",
+      "candidateSequence": "/",
+      "H1": 2.0,
+      "nominationType": "Party",
+      "governorate": "Dohuk",
+      "H2": NaN,
+      "sex": "Male",
+      "fullNameOriginal": "Sabah Abdulaziz Mohammed Saleh Has-\neer N",
+      "voterNumber": 4579,
+      "sourceFile": "ElectionCandidates_Original.csv"
+    }
+  },
+  {
+    "row": 6141,
+    "error": "invalid literal for int() with base 10: '/'",
+    "data": {
+      "ballotNumber": "ي الوطثن قف / Towards the male position of the country\nه",
+      "candidateSequence": "/",
+      "H1": 4.0,
+      "nominationType": "Party",
+      "governorate": "Dohuk",
+      "H2": NaN,
+      "sex": "Male",
+      "fullNameOriginal": "Saber Mohammed Qader Rajab Al-Aqrawi",
+      "voterNumber": 4581,
+      "sourceFile": "ElectionCandidates_Original.csv"
+    }
+  },
+  {
+    "row": 6424,
+    "error": "invalid literal for int() with base 10: '/\\n              5'",
+    "data": {
+      "ballotNumber": "Position Group",
+      "candidateSequence": "/\n              5",
+      "H1": NaN,
+      "nominationType": "Party",
+      "governorate": "Sulaymaniyah",
+      "H2": NaN,
+      "sex": "Male",
+      "fullNameOriginal": "Saman Ali Saleh Aziz",
+      "voterNumber": 979,
+      "sourceFile": "ElectionCandidates_Original.csv"
+    }
+  },
+  {
+    "row": 6657,
+    "error": "invalid literal for int() with base 10: '/'",
+    "data": {
+      "ballotNumber": "Position Group",
+      "candidateSequence": "/",
+      "H1": 8.0,
+      "nominationType": "Party",
+      "governorate": "Sulaymaniyah",
+      "H2": NaN,
+      "sex": "female\n ",
+      "fullNameOriginal": "Shehla Ali Mohammed Aref",
+      "voterNumber": 982,
+      "sourceFile": "ElectionCandidates_Original.csv"
+    }
+  },
+  {
+    "row": 7025,
+    "error": "invalid literal for int() with base 10: '/\\n            13'",
+    "data": {
+      "ballotNumber": "Position Group",
+      "candidateSequence": "/\n            13",
+      "H1": NaN,
+      "nominationType": "Party",
+      "governorate": "Sulaymaniyah",
+      "H2": NaN,
+      "sex": "Male",
+      "fullNameOriginal": "Three Rabbahs Set Abbas Rashid Qadir",
+      "voterNumber": 987,
+      "sourceFile": "ElectionCandidates_Original.csv"
+    }
+  },
+  {
+    "row": 7252,
+    "error": "invalid literal for int() with base 10: '/\\n              3'",
+    "data": {
+      "ballotNumber": "Position Group",
+      "candidateSequence": "/\n              3",
+      "H1": NaN,
+      "nominationType": "Party",
+      "governorate": "Sulaymaniyah",
+      "H2": NaN,
+      "sex": "Male",
+      "fullNameOriginal": "Yasir Rasool Othman Arif",
+      "voterNumber": 977,
+      "sourceFile": "ElectionCandidates_Original.csv"
+    }
+  }
+]

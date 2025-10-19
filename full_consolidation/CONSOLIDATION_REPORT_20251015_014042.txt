@@ -1,0 +1,260 @@
+﻿HAMLET PROJECT - ULTIMATE CONSOLIDATION REPORT
+Generated: 2025-10-15 01:40:45
+Consolidation Path: E:\HamletUnified\full_consolidation
+
+========================================
+MISSION: EXTRACT MAXIMUM VALUE
+========================================
+Created folder structure: 18 directories
+
+========================================
+SOURCE FOLDERS SCANNED
+========================================
+
+CANDIDATE DATA FILES: 31 files
+  - E:\HamletUnified\backups\data_backup_2025-10-14_23-00-35\Election-canadidates--Translated-english - Election-canadidates--Translated-english.csv
+    New: E:\HamletUnified\full_consolidation\candidates\originals\Election-canadidates--Translated-english - Election-canadidates--Translated-english.csv
+    Size: 814.84 KB
+  - E:\HamletUnified\backups\data_backup_2025-10-14_23-00-35\Election-canadidates-translated+origional - Election-canadidates-origional.csv
+    New: E:\HamletUnified\full_consolidation\candidates\originals\Election-canadidates-translated+origional - Election-canadidates-origional.csv
+    Size: 568.09 KB
+  - E:\HamletUnified\backups\MVP-frontend-backup-20251014_2053\candidate_data\outreach_drafts\data\Election-canadidates--Translated-english - Election-canadidates--Translated-english.csv
+    New: E:\HamletUnified\full_consolidation\candidates\originals\Election-canadidates--Translated-english - Election-canadidates--Translated-english_20251015_014042.csv
+    Size: 814.84 KB
+  - E:\HamletUnified\backups\MVP-frontend-backup-20251014_2053\candidate_data\outreach_drafts\data\Election-canadidates-translated+origional - Election-canadidates-origional.csv
+    New: E:\HamletUnified\full_consolidation\candidates\originals\Election-canadidates-translated+origional - Election-canadidates-origional_20251015_014042.csv
+    Size: 959.83 KB
+  - E:\HamletUnified\backups\MVP-frontend-backup-20251014_2053\candidates.csv
+    New: E:\HamletUnified\full_consolidation\candidates\originals\candidates.csv
+    Size: 0 KB
+  - E:\HamletUnified\clean_election_data\agent1_new.csv
+    New: E:\HamletUnified\full_consolidation\candidates\originals\agent1_new.csv
+    Size: 228.51 KB
+  - E:\HamletUnified\clean_election_data\agent1_stage.csv
+    New: E:\HamletUnified\full_consolidation\candidates\originals\agent1_stage.csv
+    Size: 200.98 KB
+  - E:\HamletUnified\clean_election_data\agent2_cleaned.csv
+    New: E:\HamletUnified\full_consolidation\candidates\originals\agent2_cleaned.csv
+    Size: 198.24 KB
+  - E:\HamletUnified\clean_election_data\agent2_new.csv
+    New: E:\HamletUnified\full_consolidation\candidates\originals\agent2_new.csv
+    Size: 85.95 KB
+  - E:\HamletUnified\clean_election_data\agent2_subset_raw.csv
+    New: E:\HamletUnified\full_consolidation\candidates\originals\agent2_subset_raw.csv
+    Size: 0.16 KB
+  - E:\HamletUnified\clean_election_data\agent3_new.csv
+    New: E:\HamletUnified\full_consolidation\candidates\originals\agent3_new.csv
+    Size: 204.28 KB
+  - E:\HamletUnified\clean_election_data\agent4_new.csv
+    New: E:\HamletUnified\full_consolidation\candidates\originals\agent4_new.csv
+    Size: 289.02 KB
+  - E:\HamletUnified\clean_election_data\ElectionCandidates_English.csv
+    New: E:\HamletUnified\full_consolidation\candidates\originals\ElectionCandidates_English.csv
+    Size: 959.83 KB
+  - E:\HamletUnified\clean_election_data\ElectionCandidates_Original.csv
+    New: E:\HamletUnified\full_consolidation\candidates\originals\ElectionCandidates_Original.csv
+    Size: 814.84 KB
+  - E:\HamletUnified\Copy-of-Hamlet-social\candidate_data\outreach_drafts\data\Election-canadidates--Translated-english - Election-canadidates--Translated-english.csv
+    New: E:\HamletUnified\full_consolidation\candidates\originals\Election-canadidates--Translated-english - Election-canadidates--Translated-english_20251015_014042.csv
+    Size: 814.84 KB
+  - E:\HamletUnified\Copy-of-Hamlet-social\candidate_data\outreach_drafts\data\Election-canadidates-translated+origional - Election-canadidates-origional.csv
+    New: E:\HamletUnified\full_consolidation\candidates\originals\Election-canadidates-translated+origional - Election-canadidates-origional_20251015_014042.csv
+    Size: 959.83 KB
+  - E:\HamletUnified\Copy-of-Hamlet-social\candidates.csv
+    New: E:\HamletUnified\full_consolidation\candidates\originals\candidates_20251015_014042.csv
+    Size: 0 KB
+  - E:\HamletUnified\data\Election-canadidates--Translated-english - Election-canadidates--Translated-english.csv
+    New: E:\HamletUnified\full_consolidation\candidates\originals\Election-canadidates--Translated-english - Election-canadidates--Translated-english_20251015_014042.csv
+    Size: 814.84 KB
+  - E:\HamletUnified\data\Election-canadidates-translated+origional - Election-canadidates-origional.csv
+    New: E:\HamletUnified\full_consolidation\candidates\originals\Election-canadidates-translated+origional - Election-canadidates-origional_20251015_014042.csv
+    Size: 568.09 KB
+  - E:\HamletUnified\full_consolidation\merged_candidates\master_candidates.csv
+    New: E:\HamletUnified\full_consolidation\candidates\originals\master_candidates.csv
+    Size: 0 KB
+  - E:\HamletUnified\full_consolidation\merged_candidates\master_candidates_bilingual.csv
+    New: E:\HamletUnified\full_consolidation\candidates\originals\master_candidates_bilingual.csv
+    Size: 0 KB
+  - E:\HamletUnified\full_consolidation\merged_candidates\master_candidates_bilingual_2025-10-14_23-15-00.csv
+    New: E:\HamletUnified\full_consolidation\candidates\originals\master_candidates_bilingual_2025-10-14_23-15-00.csv
+    Size: 37.99 KB
+  - E:\HamletUnified\full_consolidation\merged_candidates\master_candidates_bilingual_2025-10-14_23-15-35.csv
+    New: E:\HamletUnified\full_consolidation\candidates\originals\master_candidates_bilingual_2025-10-14_23-15-35.csv
+    Size: 37.99 KB
+  - E:\HamletUnified\full_consolidation\merged_candidates\master_candidates_bilingual_2025-10-14_23-19-46.csv
+    New: E:\HamletUnified\full_consolidation\candidates\originals\master_candidates_bilingual_2025-10-14_23-19-46.csv
+    Size: 661.25 KB
+  - E:\HamletUnified\full_consolidation\merged_candidates\master_candidates_bilingual_dedup_2025-10-14_23-15-00.csv
+    New: E:\HamletUnified\full_consolidation\candidates\originals\master_candidates_bilingual_dedup_2025-10-14_23-15-00.csv
+    Size: 0.06 KB
+  - E:\HamletUnified\full_consolidation\merged_candidates\master_candidates_bilingual_dedup_2025-10-14_23-15-35.csv
+    New: E:\HamletUnified\full_consolidation\candidates\originals\master_candidates_bilingual_dedup_2025-10-14_23-15-35.csv
+    Size: 0.06 KB
+  - E:\HamletUnified\full_consolidation\merged_candidates\master_candidates_bilingual_dedup_2025-10-14_23-19-46.csv
+    New: E:\HamletUnified\full_consolidation\candidates\originals\master_candidates_bilingual_dedup_2025-10-14_23-19-46.csv
+    Size: 661.25 KB
+  - E:\HamletUnified\full_consolidation\missinggold_fresh_structure\missinggold-fresh\archive\eventra-saas\data\sample-venues.csv
+    New: E:\HamletUnified\full_consolidation\candidates\originals\sample-venues.csv
+    Size: 4.26 KB
+  - E:\HamletUnified\full_consolidation\master_candidates.csv
+    New: E:\HamletUnified\full_consolidation\candidates\originals\master_candidates_20251015_014042.csv
+    Size: 32.87 KB
+  - E:\HamletUnified\merged\master_candidates.csv
+    New: E:\HamletUnified\full_consolidation\candidates\originals\master_candidates_20251015_014042.csv
+    Size: 0.2 KB
+  - E:\HamletUnified\لۆڤلی (2).csv
+    New: E:\HamletUnified\full_consolidation\candidates\originals\لۆڤلی (2).csv
+    Size: 1097.37 KB
+
+FRONTEND CODE: 2 files
+  React/TS/JS components preserved with structure
+
+SCRIPTS & AUTOMATION: 113 files
+  - E:\HamletUnified\CascadeProjects\windsurf-project-2\data_validation.py → E:\HamletUnified\full_consolidation\backend\scripts\data_validation.py
+  - E:\HamletUnified\CascadeProjects\windsurf-project-8\agents\__init__.py → E:\HamletUnified\full_consolidation\backend\scripts\__init__.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\.bin\autoprefixer.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\autoprefixer.ps1
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\.bin\baseline-browser-mapping.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\baseline-browser-mapping.ps1
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\.bin\bcrypt.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\bcrypt.ps1
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\.bin\browsers.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\browsers.ps1
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\.bin\browserslist.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\browserslist.ps1
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\.bin\color-support.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\color-support.ps1
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\.bin\csv-parser.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\csv-parser.ps1
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\.bin\esbuild.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\esbuild.ps1
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\.bin\escodegen.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\escodegen.ps1
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\.bin\esgenerate.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\esgenerate.ps1
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\.bin\esparse.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\esparse.ps1
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\.bin\esvalidate.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\esvalidate.ps1
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\.bin\extract-zip.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\extract-zip.ps1
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\.bin\fxparser.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\fxparser.ps1
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\.bin\jiti.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\jiti.ps1
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\.bin\js-yaml.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\js-yaml.ps1
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\.bin\jsesc.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\jsesc.ps1
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\.bin\json5.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\json5.ps1
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\.bin\mime.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\mime.ps1
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\.bin\mkdirp.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\mkdirp.ps1
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\.bin\nanoid.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\nanoid.ps1
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\.bin\next.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\next.ps1
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\.bin\node-gyp.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\node-gyp.ps1
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\.bin\node-which.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\node-which.ps1
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\.bin\nopt.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\nopt.ps1
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\.bin\parser.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\parser.ps1
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\.bin\prebuild-install.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\prebuild-install.ps1
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\.bin\puppeteer.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\puppeteer.ps1
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\.bin\rc.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\rc.ps1
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\.bin\rimraf.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\rimraf.ps1
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\.bin\rollup.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\rollup.ps1
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\.bin\semver.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\semver.ps1
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\.bin\tsc.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\tsc.ps1
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\.bin\tsserver.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\tsserver.ps1
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\.bin\update-browserslist-db.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\update-browserslist-db.ps1
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\.bin\uuid.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\uuid.ps1
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\.bin\vite.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\vite.ps1
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\@npmcli\fs\node_modules\.bin\semver.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\semver_20251015_014042.ps1
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\@puppeteer\browsers\node_modules\.bin\semver.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\semver_20251015_014042.ps1
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\gaxios\node_modules\.bin\uuid.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\uuid_20251015_014042.ps1
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-abi\node_modules\.bin\semver.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\semver_20251015_014042.ps1
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\pylib\gyp\generator\analyzer.py → E:\HamletUnified\full_consolidation\backend\scripts\analyzer.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\pylib\gyp\generator\android.py → E:\HamletUnified\full_consolidation\backend\scripts\android.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\pylib\gyp\generator\cmake.py → E:\HamletUnified\full_consolidation\backend\scripts\cmake.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\pylib\gyp\generator\compile_commands_json.py → E:\HamletUnified\full_consolidation\backend\scripts\compile_commands_json.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\pylib\gyp\generator\dump_dependency_json.py → E:\HamletUnified\full_consolidation\backend\scripts\dump_dependency_json.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\pylib\gyp\generator\eclipse.py → E:\HamletUnified\full_consolidation\backend\scripts\eclipse.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\pylib\gyp\generator\gypd.py → E:\HamletUnified\full_consolidation\backend\scripts\gypd.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\pylib\gyp\generator\gypsh.py → E:\HamletUnified\full_consolidation\backend\scripts\gypsh.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\pylib\gyp\generator\make.py → E:\HamletUnified\full_consolidation\backend\scripts\make.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\pylib\gyp\generator\msvs.py → E:\HamletUnified\full_consolidation\backend\scripts\msvs.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\pylib\gyp\generator\msvs_test.py → E:\HamletUnified\full_consolidation\backend\scripts\msvs_test.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\pylib\gyp\generator\ninja.py → E:\HamletUnified\full_consolidation\backend\scripts\ninja.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\pylib\gyp\generator\ninja_test.py → E:\HamletUnified\full_consolidation\backend\scripts\ninja_test.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\pylib\gyp\generator\xcode.py → E:\HamletUnified\full_consolidation\backend\scripts\xcode.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\pylib\gyp\generator\xcode_test.py → E:\HamletUnified\full_consolidation\backend\scripts\xcode_test.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\pylib\gyp\generator\__init__.py → E:\HamletUnified\full_consolidation\backend\scripts\__init___20251015_014042.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\pylib\gyp\common.py → E:\HamletUnified\full_consolidation\backend\scripts\common.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\pylib\gyp\common_test.py → E:\HamletUnified\full_consolidation\backend\scripts\common_test.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\pylib\gyp\easy_xml.py → E:\HamletUnified\full_consolidation\backend\scripts\easy_xml.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\pylib\gyp\easy_xml_test.py → E:\HamletUnified\full_consolidation\backend\scripts\easy_xml_test.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\pylib\gyp\flock_tool.py → E:\HamletUnified\full_consolidation\backend\scripts\flock_tool.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\pylib\gyp\input.py → E:\HamletUnified\full_consolidation\backend\scripts\input.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\pylib\gyp\input_test.py → E:\HamletUnified\full_consolidation\backend\scripts\input_test.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\pylib\gyp\mac_tool.py → E:\HamletUnified\full_consolidation\backend\scripts\mac_tool.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\pylib\gyp\MSVSNew.py → E:\HamletUnified\full_consolidation\backend\scripts\MSVSNew.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\pylib\gyp\MSVSProject.py → E:\HamletUnified\full_consolidation\backend\scripts\MSVSProject.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\pylib\gyp\MSVSSettings.py → E:\HamletUnified\full_consolidation\backend\scripts\MSVSSettings.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\pylib\gyp\MSVSSettings_test.py → E:\HamletUnified\full_consolidation\backend\scripts\MSVSSettings_test.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\pylib\gyp\MSVSToolFile.py → E:\HamletUnified\full_consolidation\backend\scripts\MSVSToolFile.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\pylib\gyp\MSVSUserFile.py → E:\HamletUnified\full_consolidation\backend\scripts\MSVSUserFile.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\pylib\gyp\MSVSUtil.py → E:\HamletUnified\full_consolidation\backend\scripts\MSVSUtil.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\pylib\gyp\MSVSVersion.py → E:\HamletUnified\full_consolidation\backend\scripts\MSVSVersion.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\pylib\gyp\msvs_emulation.py → E:\HamletUnified\full_consolidation\backend\scripts\msvs_emulation.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\pylib\gyp\ninja_syntax.py → E:\HamletUnified\full_consolidation\backend\scripts\ninja_syntax.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\pylib\gyp\simple_copy.py → E:\HamletUnified\full_consolidation\backend\scripts\simple_copy.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\pylib\gyp\win_tool.py → E:\HamletUnified\full_consolidation\backend\scripts\win_tool.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\pylib\gyp\xcodeproj_file.py → E:\HamletUnified\full_consolidation\backend\scripts\xcodeproj_file.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\pylib\gyp\xcode_emulation.py → E:\HamletUnified\full_consolidation\backend\scripts\xcode_emulation.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\pylib\gyp\xcode_ninja.py → E:\HamletUnified\full_consolidation\backend\scripts\xcode_ninja.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\pylib\gyp\xml_fix.py → E:\HamletUnified\full_consolidation\backend\scripts\xml_fix.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\pylib\gyp\__init__.py → E:\HamletUnified\full_consolidation\backend\scripts\__init___20251015_014042.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\tools\emacs\run-unit-tests.sh → E:\HamletUnified\full_consolidation\backend\scripts\run-unit-tests.sh
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\tools\graphviz.py → E:\HamletUnified\full_consolidation\backend\scripts\graphviz.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\tools\pretty_gyp.py → E:\HamletUnified\full_consolidation\backend\scripts\pretty_gyp.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\tools\pretty_sln.py → E:\HamletUnified\full_consolidation\backend\scripts\pretty_sln.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\tools\pretty_vcproj.py → E:\HamletUnified\full_consolidation\backend\scripts\pretty_vcproj.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\gyp_main.py → E:\HamletUnified\full_consolidation\backend\scripts\gyp_main.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\setup.py → E:\HamletUnified\full_consolidation\backend\scripts\setup.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\gyp\test_gyp.py → E:\HamletUnified\full_consolidation\backend\scripts\test_gyp.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\node_modules\.bin\semver.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\semver_20251015_014042.ps1
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\test\fixtures\test-charmap.py → E:\HamletUnified\full_consolidation\backend\scripts\test-charmap.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\macOS_Catalina_acid_test.sh → E:\HamletUnified\full_consolidation\backend\scripts\macOS_Catalina_acid_test.sh
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\node-gyp\update-gyp.py → E:\HamletUnified\full_consolidation\backend\scripts\update-gyp.py
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\sharp\node_modules\.bin\semver.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\semver_20251015_014042.ps1
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\teeny-request\node_modules\.bin\uuid.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\uuid_20251015_014042.ps1
+  - E:\HamletUnified\Copy-of-Hamlet-social\node_modules\webdriver-bidi-protocol\tools\build.sh → E:\HamletUnified\full_consolidation\backend\scripts\build.sh
+  - E:\HamletUnified\full_consolidation\missinggold_fresh_structure\missinggold-fresh\eventra-saas\scripts\monitor.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\monitor.ps1
+  - E:\HamletUnified\full_consolidation\missinggold_fresh_structure\missinggold-fresh\scripts\deploy.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\deploy.ps1
+  - E:\HamletUnified\full_consolidation\missinggold_fresh_structure\missinggold-fresh\scripts\monitor.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\monitor_20251015_014042.ps1
+  - E:\HamletUnified\full_consolidation\missinggold_fresh_structure\missinggold-fresh\clean-and-reset.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\clean-and-reset.ps1
+  - E:\HamletUnified\full_consolidation\missinggold_fresh_structure\missinggold-fresh\start-data-collection.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\start-data-collection.ps1
+  - E:\HamletUnified\full_consolidation\missinggold_fresh_structure\missinggold-fresh\start-dev.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\start-dev.ps1
+  - E:\HamletUnified\full_consolidation\Hamlet_Consolidate.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\Hamlet_Consolidate.ps1
+  - E:\HamletUnified\tools\automated_validator.py → E:\HamletUnified\full_consolidation\backend\scripts\automated_validator.py
+  - E:\HamletUnified\tools\database_setup.py → E:\HamletUnified\full_consolidation\backend\scripts\database_setup.py
+  - E:\HamletUnified\tools\full_candidate_with_social.py → E:\HamletUnified\full_consolidation\backend\scripts\full_candidate_with_social.py
+  - E:\HamletUnified\tools\manual_social_collector.py → E:\HamletUnified\full_consolidation\backend\scripts\manual_social_collector.py
+  - E:\HamletUnified\# Merge_MasterCandidates.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\# Merge_MasterCandidates.ps1
+  - E:\HamletUnified\HamletAssessment.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\HamletAssessment.ps1
+  - E:\HamletUnified\Merge_MasterCandidates.ps1 → E:\HamletUnified\full_consolidation\backend\scripts\Merge_MasterCandidates.ps1
+
+SPECIAL FEATURES: 3 feature sets
+  - E:\HamletUnified\backups\MVP-frontend-backup-20251014_2053\src\features → PRESERVED
+  - E:\HamletUnified\full_consolidation\scripts_and_features → PRESERVED
+  - E:\HamletUnified\full_consolidation\missinggold_fresh_structure\missinggold-fresh\.git\logs\refs\heads\feature → PRESERVED
+
+DOCUMENTATION: 1046 files
+
+========================================
+MASTER CANDIDATE FILE CREATED
+========================================
+Total rows merged: 7769
+Unique candidates: 7769
+Output: E:\HamletUnified\full_consolidation\candidates\master\MASTER_CANDIDATES_20251015_014042.csv
+
+========================================
+CONSOLIDATION SUMMARY
+========================================
+Candidate Data Files: 31
+Frontend Code Files: 2
+Scripts & Automation: 113
+Special Features: 3
+Documentation Files: 1046
+
+Total Files Consolidated: 1192
+
+========================================
+NEXT STEPS
+========================================
+1. Review master candidate file for accuracy
+2. Connect frontend MVP to master data
+3. Begin social media collection automation
+4. Set up Windsurf agents for enrichment
+5. Generate outreach templates
+
