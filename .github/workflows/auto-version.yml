@@ -8,6 +8,10 @@ on:
 jobs:
   version:
     runs-on: ubuntu-latest
+    # Ensure the bump action uses your PAT by setting GITHUB_TOKEN to your GH_PAT secret
+    env:
+      GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -31,14 +35,4 @@ jobs:
         uses: phips28/gh-action-bump-version@v10.1.0
         with:
           tag-prefix: 'v'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Push tags using PAT
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          export TAG=$(git describe --tags --abbrev=0)
-          git push https://$GH_PAT@github.com/absulysuly/amlet-unified.git $TAG
-        env:
-          GH_PAT: ${{ secrets.GH_PAT }}
+        # This step will now use the PAT (provided above via GITHUB_TOKEN) to push tags Good cat good cat Kit Kat Kit
