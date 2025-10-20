@@ -8,9 +8,9 @@ on:
 jobs:
   version:
     runs-on: ubuntu-latest
-    # Ensure the bump action uses your PAT by setting GITHUB_TOKEN to your GH_PAT secret
+    # Ensure the bump action uses your PAT by setting GITHUB_TOKEN to your RELEASE_TOKEN secret
     env:
-      GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+      GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
 
     steps:
       - name: Checkout repository
