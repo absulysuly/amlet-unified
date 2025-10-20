@@ -33,3 +33,12 @@ jobs:
           tag-prefix: 'v'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Push tags using PAT
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          export TAG=$(git describe --tags --abbrev=0)
+          git push https://$GH_PAT@github.com/absulysuly/amlet-unified.git $TAG
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
