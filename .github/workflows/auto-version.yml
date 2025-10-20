@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     # Ensure the bump action uses your PAT by setting GITHUB_TOKEN to your RELEASE_TOKEN secret
     env:
-      GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+   RELEASE_TOKEN: ${{ secrets.RELEASE_TOKEN }}
 
     steps:
       - name: Checkout repository
@@ -31,8 +31,10 @@ jobs:
             echo "No package-lock.json at repository root; skipping npm ci"
           fi
 
-      - name: Bump version and tag
+      - ame: Bump version and tag
         uses: phips28/gh-action-bump-version@v10.1.0
+        env:
+       RELEASE_TOKEN: ${{ secrets.RELEASE_TOKEN }}
         with:
           tag-prefix: 'v'
-        # This step will now use the PAT (provided above via GITHUB_TOKEN) to push tags Good cat good cat Kit Kat Kit
+          push: true
