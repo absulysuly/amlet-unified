@@ -28,8 +28,8 @@ jobs:
           fi
 
       - name: Bump version and tag
-        uses: phips28/gh-action-bump-version@v11
+        uses: phips28/gh-action-bump-version@v10
         with:
-          tag-prefix: 'v'
+          tag-prefix: "v"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

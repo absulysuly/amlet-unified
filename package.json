@@ -1,4 +1,8 @@
 {
+  "name": "hamlet-unified",
+  "version": "1.0.0",
+  "description": "Iraqi Political Campaign Management Platform",
+  "private": true,
   "devDependencies": {
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.6",
