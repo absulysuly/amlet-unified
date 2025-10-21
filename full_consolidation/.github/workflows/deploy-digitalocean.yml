@@ -1,0 +1,66 @@
+name: Deploy to DigitalOcean
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+  packages: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v2
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v2
+
+      - name: Log in to GitHub Container Registry
+        uses: docker/login-action@v2
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build and push image to GHCR
+        uses: docker/build-push-action@v4
+        with:
+          context: ./
+          file: ./backend/Dockerfile
+          push: true
+          tags: ghcr.io/absulysuly/amlet-unified:latest
+
+      - name: Install doctl
+        uses: digitalocean/action-doctl@v2
+        with:
+          token: ${{ secrets.DIGITALOCEAN_ACCESS_TOKEN }}
+
+      - name: Download app spec
+        run: cat digitalocean/app.yaml
+
+      - name: Deploy to DigitalOcean App Platform
+        env:
+          IMAGE: ghcr.io/absulysuly/amlet-unified:latest
+        run: |
+          # Update the app spec to reference the built image for the service
+          python - <<'PY'
+import yaml,sys
+f='digitalocean/app.yaml'
+data=yaml.safe_load(open(f))
+for s in data.get('services',[]):
+    if 'dockerfile_path' in s:
+        s.pop('dockerfile_path', None)
+    s['image']= {'registry_type':'gcr','repository': 'ghcr.io/absulysuly/amlet-unified', 'tag':'latest'}
+open(f,'w').write(yaml.safe_dump(data))
+print('Updated app spec to use GHCR image')
+PY
+          doctl apps update --spec digitalocean/app.yaml

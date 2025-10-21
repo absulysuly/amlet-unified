@@ -1,0 +1,73 @@
+═══════════════════════════════════════════════════════════════
+ EXACT STEPS TO FINALIZE DEPLOYMENT
+═══════════════════════════════════════════════════════════════
+
+TAB 1: RENDER DASHBOARD
+URL: https://dashboard.render.com/web/srv-d3ra4p24d50c73bksgdg
+
+STEP 1: Go to "Settings" tab (left sidebar)
+STEP 2: Scroll to "Build & Deploy" section
+STEP 3: Verify these settings:
+   - Root Directory: backend
+   - Build Command: npm install  
+   - Start Command: node server.mjs
+
+STEP 4: Click "Save Changes" if you changed anything
+
+STEP 5: Go to "Manual Deploy" button (top right)
+STEP 6: Click "Deploy latest commit"
+
+STEP 7: Wait 2-3 minutes for build to complete
+   (You'll see logs scrolling - wait for "==> Build successful!")
+
+STEP 8: Test backend:
+   Open: https://srv-d3ra4p24d50c73bksgdg.onrender.com/health
+   Should show: {"status":"ok"}
+
+───────────────────────────────────────────────────────────────
+
+TAB 2: VERCEL DASHBOARD  
+URL: https://vercel.com/absulysulys-projects/test-new-frontend
+
+STEP 1: Check if new deployment is in progress
+   (Look for "Building" or "Ready" status)
+
+STEP 2: If NO deployment showing:
+   a) Click "Settings" tab
+   b) Click "Git" in left sidebar  
+   c) Verify connected to: absulysuly/amlet-unified
+   d) Root Directory: frontend-aigoodstudeio
+   e) Click "Deployments" tab
+   f) Click "Redeploy" on latest deployment
+
+STEP 3: Add Environment Variable (if not set):
+   a) Go to Settings → Environment Variables
+   b) Add: NEXT_PUBLIC_API_BASE_URL
+   c) Value: https://srv-d3ra4p24d50c73bksgdg.onrender.com
+   d) Click "Save"
+   e) Redeploy
+
+STEP 4: Wait for deployment (1-2 minutes)
+
+STEP 5: Click the deployment URL to test frontend
+
+───────────────────────────────────────────────────────────────
+
+VERIFICATION CHECKLIST
+
+□ Render shows "Live" status (green dot)
+□ Backend health check works:
+  https://srv-d3ra4p24d50c73bksgdg.onrender.com/health
+
+□ Backend API works:
+  https://srv-d3ra4p24d50c73bksgdg.onrender.com/api/candidates
+
+□ Vercel shows "Ready" status
+□ Frontend loads in browser
+□ Frontend can fetch and display candidates
+□ No errors in browser console (F12)
+
+═══════════════════════════════════════════════════════════════
+
+REPLY "deployed" WHEN ALL CHECKBOXES ARE COMPLETE
+

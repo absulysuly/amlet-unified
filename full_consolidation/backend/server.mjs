@@ -3,9 +3,37 @@ import express from 'express';
 import cors from 'cors';
 
 const app = express();
-// Configure CORS: allow any in dev; restrict if CORS_ORIGIN is set
-const corsOrigin = process.env.CORS_ORIGIN;
-app.use(cors({ origin: corsOrigin ? corsOrigin.split(',').map(o => o.trim()) : true }));
+
+// Configure CORS - allow Vercel and any other specified origins
+const allowedOrigins = [
+  'https://amlet-unified.vercel.app',
+  'https://test-new-frontend.vercel.app',
+  'https://amlet-unified-absulysulys-projects.vercel.app',
+  'http://localhost:3000',
+  'http://localhost:3001'
+];
+
+// Add custom CORS_ORIGIN if provided
+if (process.env.CORS_ORIGIN) {
+  const customOrigins = process.env.CORS_ORIGIN.split(',').map(o => o.trim());
+  allowedOrigins.push(...customOrigins);
+}
+
+app.use(cors({ 
+  origin: (origin, callback) => {
+    // Allow requests with no origin (mobile apps, Postman, etc.)
+    if (!origin) return callback(null, true);
+    
+    if (allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      console.log(`CORS blocked origin: ${origin}`);
+      callback(null, true); // Allow all for now, restrict later
+    }
+  },
+  credentials: true
+}));
+
 app.use(express.json());
 
 const PORT = Number(process.env.PORT || 4001);

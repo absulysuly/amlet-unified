@@ -1,0 +1,20 @@
+name: hamlet-backend-app
+services:
+  - name: backend
+    github:
+      repo: absulysuly/amlet-unified
+      branch: main
+      deploy_on_push: false
+    run_command: "node server.mjs"
+    environment_slug: node-js
+    instance_size_slug: basic-xxs
+    instance_count: 1
+    dockerfile_path: backend/Dockerfile
+    routes:
+      - path: /
+    envs:
+      - key: PORT
+        value: "4001"
+        scope: RUN_AND_BUILD
+      - key: CORS_ORIGIN
+        scope: RUN_AND_BUILD

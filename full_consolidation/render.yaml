@@ -1,13 +1,16 @@
 services:
   - type: web
     name: hamlet-backend
-    env: node
+    runtime: node
+    region: oregon
     plan: free
     rootDir: backend
     buildCommand: npm install
-    startCommand: npm run start
-    autoDeploy: true
+    startCommand: node server.mjs
     envVars:
       - key: NODE_ENV
         value: production
-
+      - key: PORT
+        value: 10000
+      - key: CORS_ORIGIN
+        sync: false
