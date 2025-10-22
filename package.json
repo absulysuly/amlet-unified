@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "Iraqi Political Campaign Management Platform",
   "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "prisma:generate": "cd hamlet-production/backend && npx prisma generate",
+    "postinstall": "npm run prisma:generate"
+  },
   "devDependencies": {
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.6",
